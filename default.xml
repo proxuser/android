@@ -44,6 +44,11 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="development" name="CarbonDev/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-10.2" />
+  <project name="TheMuppets/proprietary_vendor_samsung.git" path="vendor/samsung" remote="cm" revision="cm-10.2" />
+  <project path="device/samsung/msm8930-common" name="CyanogenMod/android_device_samsung_msm8930-common" remote="cm" revision="cm-10.2" />
+  <project path="device/samsung/serrano-common" name="CyanogenMod/android_device_samsung_serrano-common" remote="cm" revision="cm-10.2" />
+  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="cm" revision="cm-10.2" />
+  <project path="kernel/samsung/msm8930-common" name="CyanogenMod/android_kernel_samsung_msm8930-common" remote="cm" revision="cm-10.2" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
